@@ -1,0 +1,2 @@
+# Deep Ocean Theme
+A Visual Studio Code theme inspired by the Deep Ocean Theme by Kostyantyn Safonov, originally designed for JetBrains IDEs. This theme aims to bring the same aesthetic and color scheme to VS Code users. At least that's the plan :>.

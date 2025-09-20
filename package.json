@@ -1,0 +1,34 @@
+{
+  "name": "deep-ocean-theme-by-philornot",
+  "displayName": "Deep Ocean Theme by philornot",
+  "description": "My best attempt to mimick the Deep Ocean Theme by Kostyantyn Safonov, which is JetBrains-IDE-only.",
+  "version": "0.0.1",
+  "publisher": "philornot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philornot/deep-ocean-theme"
+  },
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "dark",
+    "ocean",
+    "deep",
+    "blue"
+  ],
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Deep Ocean Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Deep Ocean Theme-color-theme.json"
+      }
+    ]
+  }
+}
