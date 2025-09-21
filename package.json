@@ -23,11 +23,6 @@
   "engines": {
     "vscode": "^1.75.0"
   },
-  "scripts": {
-    "vscode:prepublish": "vsce package",
-    "package": "vsce package",
-    "publish": "vsce publish"
-  },
   "categories": [
     "Themes"
   ],
