@@ -5,7 +5,7 @@
     "editor.background": "#091014",
     "editor.foreground": "#b1b7be",
     "editor.selectionBackground": "#324753",
-    "editor.selectionHighlightBackground": "#1c2a32",
+    "editor.selectionHighlightBackground": "#1c2a3280",
     "statusBar.background": "#253641",
     "activityBar.background": "#000000",
     "activityBarBadge.background": "#007acc",
@@ -14,13 +14,26 @@
     "tab.activeForeground": "#ffffff",
     "tab.inactiveBackground": "#091014",
     "tab.inactiveForeground": "#c6ccd3",
-    "editorLineNumber.foreground": "#c6ccd3",
+    "editorLineNumber.foreground": "#364555",
+    "editorLineNumber.activeForeground": "#607D86",
     "editorCursor.foreground": "#c6ccd3",
-    "editorWhitespace.foreground": "#c6ccd3",
+    "editorWhitespace.foreground": "#2F4158",
     "terminal.background": "#091014",
     "terminal.foreground": "#c6ccd3",
     "sideBar.background": "#091014",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "sideBarTitle.foreground": "#bbbbbb",
+    "editor.lineHighlightBackground": "#0A1318",
+    "editorRuler.foreground": "#1A2D34",
+    "editorIndentGuide.background1": "#20323D",
+    "editorIndentGuide.activeBackground1": "#3C5066",
+    "editorBracketHighlight.foreground1": "#485C7B",
+    "gitDecoration.addedResourceForeground": "#98D792",
+    "gitDecoration.modifiedResourceForeground": "#FF9E60",
+    "gitDecoration.deletedResourceForeground": "#FF5370",
+    "diffEditor.insertedTextBackground": "#214F1B80",
+    "diffEditor.removedTextBackground": "#602A3080",
+    "notificationCenter.border": "#3D1A11",
+    "notifications.background": "#3D1A11"
   },
   "tokenColors": [
     {
@@ -109,7 +122,24 @@
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#FF5370",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Invalid String Escape",
+      "scope": ["invalid.illegal.character.escape"],
+      "settings": {
+        "foreground": "#FF5370",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Deprecated",
+      "scope": ["invalid.deprecated"],
+      "settings": {
+        "foreground": "#C3CEE3",
+        "fontStyle": "strikethrough"
       }
     },
     {
@@ -407,7 +437,24 @@
         "meta.annotation.attribute"
       ],
       "settings": {
-        "foreground": "#f36e77"
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Annotation Names",
+      "scope": ["entity.name.annotation", "meta.annotation.name"],
+      "settings": {
+        "foreground": "#DCA9DC"
+      }
+    },
+    {
+      "name": "Annotation Attribute Names",
+      "scope": [
+        "entity.other.attribute-name.annotation",
+        "meta.annotation.attribute.name"
+      ],
+      "settings": {
+        "foreground": "#F78C6C"
       }
     },
     {
