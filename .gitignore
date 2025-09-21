@@ -2,3 +2,5 @@ node_modules
 *.vsix
 .env
 .idea
+package.json
+sample_code.py
