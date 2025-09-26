@@ -1,3 +1,8 @@
+## 1.0.4 (2025-09-26)
+- Changed the screenshot in the README
+
+*(let's pretend that 1.0.3 never happened)*
+
 ## 1.0.2 (2025-09-21)
 - Color experimenting
 
